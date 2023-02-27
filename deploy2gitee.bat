@@ -8,4 +8,4 @@ cd src/.vuepress/dist
 git init
 git add -A
 git commit -m 'auto-deploy'
-git push -f git@gitee.com:wu162/ra3-map-wiki.git master:gh-pages
+git push -f git@gitee.com:wu162/ra3mapwiki.git master:gh-pages

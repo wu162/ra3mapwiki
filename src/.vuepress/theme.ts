@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "/logo.svg",
+  logo: "/logo.png",
 
 
   docsDir: "demo/theme-docs/src",
@@ -26,6 +26,7 @@ export default hopeTheme({
   footer: "默认页脚",
 
   displayFooter: true,
+  breadcrumb: false,
 
 
   plugins: {
