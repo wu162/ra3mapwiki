@@ -1,8 +1,8 @@
 @echo off
 
-echo building...
-call build.bat
-echo building-complete.
+@REM echo building...
+@REM call build.bat
+@REM echo building-complete.
 
 cd src/.vuepress/dist
 git init

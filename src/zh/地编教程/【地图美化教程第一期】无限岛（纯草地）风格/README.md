@@ -110,8 +110,13 @@ Yucatan_YU - Optimized_ProPs - YU_SmallRocks 1~2
 
 ## 提问
 Q：问个细节，怎样刷YUCATAN - Dirtroad旁的地表好看些
+
 A：用4-5的笔刷直接在下面沿着小路刷gravel那个贴图就可以啦。有的地方（比如道路交叉）可以刷一些dirt-yucatan06-256 ，类似于矿脉前面那样
+
 Q：还有，就是柔化地表的顺序是怎样？我是在gravel外刷dirt-yucatan06，在gravel中用尺寸1的刷dirt-yucatan06，然后柔化gravel，这时候外面的dirt-yucatan06就没有办法充分柔化了
+
 A：小笔刷涂上去的，或者在里面的一般是优先柔化，如果先外面的话里面的就太小了
+
 Q：就是先刷外面dirt-yucatan06么。或者还有一个方案：先刷并柔化gravel，然后在gravel外面刷dirt-yucatan06并柔化，这样我担心会出现地表残渣的BUG
+
 A：路下面一般就gravel就行了，如果要刷dirt也可以。残渣其实可以手动处理的，如果处理不掉可以拿个石头或者草挡一下

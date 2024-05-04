@@ -1,14 +1,18 @@
+import { getDirname, path } from '@vuepress/utils'
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 
+// @ts-ignore
+const __dirname = getDirname(import.meta.url)
+
 export default defineUserConfig({
+  // base: "",
   base: "/ra3mapwiki/",
 
   lang: "zh-CN",
   title: "红警3地图百科",
   description: "A world for your own RA3 !",
-
   theme,
 
   plugins: [
@@ -27,6 +31,7 @@ export default defineUserConfig({
         },
       ],
     }),
+
   ],
 
   // Enable it with pwa
